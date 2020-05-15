@@ -27,4 +27,20 @@ body {
 .output {
     grid-column: 1 / -1;
     background: rgba(0, 0, 0, .55);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.previous-num {
+    font-size: 1.6rem;
+    color: gainsboro;
+    padding-right: 1rem;
+}
+
+.current-num {
+    font-size: 2.2rem;
+    color: white;
+    padding-right: 1rem;
 }
